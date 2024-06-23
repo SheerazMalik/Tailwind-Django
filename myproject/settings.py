@@ -41,7 +41,10 @@ INSTALLED_APPS = [
     'tailwind',
     'theme',
     'django_browser_reload',
+<<<<<<< HEAD
     'chai',
+=======
+>>>>>>> 373f8dded0ad528164506ed23c7a4ce041b38204
 ]
 
 TAILWIND_APP_NAME = 'theme'
@@ -127,10 +130,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+<<<<<<< HEAD
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'Static')]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+=======
+>>>>>>> 373f8dded0ad528164506ed23c7a4ce041b38204
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

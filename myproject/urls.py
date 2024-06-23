@@ -17,14 +17,23 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import include, path
+<<<<<<< HEAD
 from django.conf import settings
 from django.conf.urls.static import static
+=======
+>>>>>>> 373f8dded0ad528164506ed23c7a4ce041b38204
 from .import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name = 'home'),
+<<<<<<< HEAD
     path('chai/', include('chai.urls')),
 
     path("__reload__/", include("django_browser_reload.urls")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+=======
+
+    path("__reload__/", include("django_browser_reload.urls")),
+]
+>>>>>>> 373f8dded0ad528164506ed23c7a4ce041b38204

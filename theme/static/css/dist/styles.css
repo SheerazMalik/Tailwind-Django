@@ -787,10 +787,13 @@ select {
   position: static;
 }
 
+<<<<<<< HEAD
 .m-4 {
   margin: 1rem;
 }
 
+=======
+>>>>>>> 373f8dded0ad528164506ed23c7a4ce041b38204
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -804,14 +807,18 @@ select {
   display: flex;
 }
 
+<<<<<<< HEAD
 .grid {
   display: grid;
 }
 
+=======
+>>>>>>> 373f8dded0ad528164506ed23c7a4ce041b38204
 .h-screen {
   height: 100vh;
 }
 
+<<<<<<< HEAD
 .w-full {
   width: 100%;
 }
@@ -820,6 +827,8 @@ select {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+=======
+>>>>>>> 373f8dded0ad528164506ed23c7a4ce041b38204
 .items-center {
   align-items: center;
 }
@@ -828,6 +837,7 @@ select {
   justify-content: center;
 }
 
+<<<<<<< HEAD
 .gap-4 {
   gap: 1rem;
 }
@@ -841,6 +851,8 @@ select {
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
+=======
+>>>>>>> 373f8dded0ad528164506ed23c7a4ce041b38204
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
@@ -851,11 +863,14 @@ select {
   background-color: rgb(249 115 22 / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
+=======
+>>>>>>> 373f8dded0ad528164506ed23c7a4ce041b38204
 .text-center {
   text-align: center;
 }
@@ -864,18 +879,27 @@ select {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+<<<<<<< HEAD
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
+=======
+>>>>>>> 373f8dded0ad528164506ed23c7a4ce041b38204
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
 }
 
+<<<<<<< HEAD
 .font-bold {
   font-weight: 700;
+=======
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+>>>>>>> 373f8dded0ad528164506ed23c7a4ce041b38204
 }
 
 .leading-normal {
@@ -885,8 +909,11 @@ select {
 .tracking-normal {
   letter-spacing: 0em;
 }
+<<<<<<< HEAD
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+=======
+>>>>>>> 373f8dded0ad528164506ed23c7a4ce041b38204
